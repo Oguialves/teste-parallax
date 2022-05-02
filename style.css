@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section p{
+    color: #732D14;
+    text-align: justify;
+    padding-top: 40px;
+    padding-left: 10px;
+    display: inline-block;
+}
+section h2{
+    color: #A6431F;
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+section{
+    width: 100%;
+    height: 300px;
+    background-color: #F2E2C4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section a{
+    text-decoration: none;
+    color: #261008c8;
+    font-size: bold;
+}
+section a:hover{
+    background-color: #A6431F;
+    text-decoration: underline;
+}
+section ul{
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2615\00a0';
+    padding: 20px;
+}
+section:nth-of-type(1){
+    background-image: url(img/cafe1.jpg);
+    height: 600px;
+}
+section:nth-of-type(1) h1{  
+    color: #fff; 
+    text-align: center;
+    font-size: 75px;
+    z-index: 50;
+    padding-top: 300px;
+}
+section:nth-of-type(3){
+    background-image: url(img/café2.jpg);    
+    height: 600px;
+}
+section:nth-of-type(5){
+    background-image: url(img/cafe3.jpg);
+    height: 600px;
+}
+section:nth-of-type(7){
+    background-image: url(img/cafe4.jpg);
+    height: 600px;
+}
+section:nth-of-type(8) p{
+    background-color: #BF8049;
+    margin: 0px 30px 30px 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #26100881;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    color: #261008c0;
+    background-color: #A6431F;
+}
